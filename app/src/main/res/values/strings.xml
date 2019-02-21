@@ -2,10 +2,10 @@
     <string name="app_name">Calendo</string>
     <string name="asset_statements">
         [{
-        \"relation\": [\"delegate_permission/common.handle_all_urls\"],
-        \"target\": {
-        \"namespace\": \"web\",
-        \"site\": \"https://calendo.dav-apps.tech\"}
-        }]
+            \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+            \"target\": {
+                \"namespace\": \"web\",
+                \"site\": \"https://calendo.dav-apps.tech\"}
+            }]
     </string>
 </resources>
