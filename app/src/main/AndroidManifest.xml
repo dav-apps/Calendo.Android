@@ -6,16 +6,20 @@
                  android:icon="@mipmap/ic_launcher"
                  android:roundIcon="@mipmap/ic_launcher_round"
                  android:supportsRtl="true"
-                 android:theme="@style/AppTheme">
+                 android:theme="@style/Theme.LauncherActivity">
 
         <meta-data
-                android:name="asset_statements"
-                android:resource="@string/asset_statements" />
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
 
         <activity android:name="android.support.customtabs.trusted.LauncherActivity">
             <meta-data
-                    android:name="android.support.customtabs.trusted.DEFAULT_URL"
-                    android:value="https://calendo.dav-apps.tech" />
+                android:name="android.support.customtabs.trusted.DEFAULT_URL"
+                android:value="https://calendo.dav-apps.tech" />
+
+            <meta-data
+                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
+                android:resource="@color/colorPrimary" />
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
