@@ -4,13 +4,13 @@ apply plugin: 'kotlin-android'
 
 android {
     namespace "app.dav.calendo"
-    compileSdkVersion 36
+    compileSdkVersion 37
     defaultConfig {
         applicationId "app.dav.calendo"
-        minSdkVersion 21
-        targetSdkVersion 36
-        versionCode 7
-        versionName "1.2.0"
+        minSdkVersion 23
+        targetSdkVersion 37
+        versionCode 8
+        versionName "1.2.1"
     }
     buildTypes {
         release {
@@ -26,5 +26,5 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.6.2'
+    implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.7.2'
 }

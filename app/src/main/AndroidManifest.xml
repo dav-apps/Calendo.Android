@@ -61,6 +61,10 @@
             </intent-filter>
         </activity>
 
+        <activity
+                android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
+                android:exported="false" />
+
         <provider
                 android:name="androidx.core.content.FileProvider"
                 android:authorities="app.dav.calendo.fileprovider"
